@@ -11,7 +11,7 @@ SRCS = $(wildcard *.cpp)
 OBJS = $(SRCS:.cpp=.o)
 
 # Target executable
-TARGET = poker_game_sim
+TARGET = main
 
 # Default target
 all: $(TARGET)
